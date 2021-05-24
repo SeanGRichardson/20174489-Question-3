@@ -153,6 +153,8 @@ Plot_Photo(Photo_Video_Data)
 Plot_Video(Photo_Video_Data)
 
 ```
+
+
 We see from the graphs  that the BBC was by far the least likely to use either photos or videos in their tweets. Furthermore, tweets were marginally more likely to include videos than photos.
 
 \newpage
@@ -217,3 +219,10 @@ Retweet_Plot(Interaction_Data)
 
 
 ```
+
+\newpage
+
+# Donald Trump
+
+I did not get to this section
+
