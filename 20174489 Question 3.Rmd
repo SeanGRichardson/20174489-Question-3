@@ -171,3 +171,49 @@ Hashtag_Data <- Used_Hashtags(Tweet_Data)
 Plot_Hashtags(Hashtag_Data)
 
 ```
+
+
+\newpage
+
+
+# Interaction
+
+
+We now turn to interaction with tweets. We will plot the total number and average number of likes, retweets and replies for each publication.
+
+We see from the graphs that CNN has the most public interaction by every metric, especially when averages are considered. The Economist beats the BBC in total likes and retweets, but the BBC has more interaction than The Economist by every other metric.
+
+```{r}
+
+Interaction_Data <- Interaction(Tweet_Data)
+
+# Total Likes
+
+Like_Plot(Interaction_Data)
+
+
+```
+
+
+```{r}
+
+
+# Total Replies
+
+Reply_Plot(Interaction_Data)
+
+
+```
+
+
+
+
+
+```{r}
+
+# Total Retweets
+
+Retweet_Plot(Interaction_Data)
+
+
+```
